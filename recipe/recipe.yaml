@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mjml
-  version: 0.11.1
+  version: "0.12.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/mjml-${{ version }}.tar.gz
-  sha256: f703c8b3458ca0100df6cf56a3633f193b352a80b1a1836a452b92361e74ca73
+  sha256: 614397e624b115d78f9064d0f8aabceda3b522785eca8c2818ee03ffa8fdbf37
 
 build:
   noarch: python
